@@ -1,15 +1,8 @@
 {
-  "name": "CAVARELA",
+  "name": "myapp",
+  "description": "a really cool app",
   "version": "0.0.1",
-  "dependencies": {
-    "express": "3.0.0alpha4",
-    "jade": "*",
-    "stylus": "*",
-    "nib": "*"
-  }
-}
-{
   "engines": {
-    "node": "0.11.x"
+    "node": "0.10.x"
   }
 }
