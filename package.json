@@ -1,8 +1,35 @@
 {
-  "name": "myapp",
-  "description": "a really cool app",
-  "version": "0.0.1",
+  "name": "web.js",
+  "version": "0.0.0",
+  "description": "test node.js",
+  "main": "web.js",
+  "dependencies": {
+    "express": "^3.14.0",
+    "jade": "^1.4.2",
+    "logfmt": "^1.1.2",
+    "nib": "^1.0.3",
+    "stylus": "^0.47.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosvarela/nodejs-simpleweb"
+  },
+  "keywords": [
+    "heroku",
+    "nodejs"
+  ],
+  "author": "Carlos Varela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlosvarela/nodejs-simpleweb/issues"
+  },
+  "homepage": "https://github.com/carlosvarela/nodejs-simpleweb",
+
   "engines": {
     "node": "0.10.x"
-  }
+  },
 }
